@@ -1,0 +1,132 @@
+.card {
+	border: 1px solid #e2e2e2;
+	border-radius: 8px;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 0.5rem;
+}
+
+.title {
+	margin: 0;
+	font-size: 1.05rem;
+}
+
+.category {
+	font-size: 0.75rem;
+	color: #555;
+	white-space: nowrap;
+}
+
+.company {
+	margin: 0;
+	color: #444;
+	font-weight: 500;
+}
+
+.meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+}
+
+.badge {
+	font-size: 0.75rem;
+	background: #f0f0f0;
+	border-radius: 999px;
+	padding: 0.15rem 0.6rem;
+	text-transform: capitalize;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.5rem;
+}
+
+.detailsButton {
+	background: none;
+	border: none;
+	color: #111;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 0.85rem;
+	padding: 0;
+}
+
+.saveButton {
+	cursor: pointer;
+	background: #111;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	padding: 0.4rem 0.9rem;
+	font-size: 0.85rem;
+}
+
+.savedBadge {
+	font-size: 0.8rem;
+	color: #2e7d32;
+	font-weight: 600;
+}
+
+.modalTitle {
+	margin: 0;
+	font-size: 1.3rem;
+}
+
+.modalCompany {
+	margin: 0.15rem 0 0;
+	color: #555;
+}
+
+.modalMeta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+	margin-bottom: 0.75rem;
+}
+
+.tagList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35rem;
+	margin-bottom: 1rem;
+}
+
+.tag {
+	font-size: 0.7rem;
+	background: #eef2ff;
+	color: #3730a3;
+	border-radius: 999px;
+	padding: 0.15rem 0.55rem;
+}
+
+.description {
+	font-size: 0.9rem;
+	margin-bottom: 1rem;
+}
+
+.description img {
+	max-width: 100%;
+}
+
+.link {
+	font-size: 0.85rem;
+}
+
+.cancelButton {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 0.4rem 0.9rem;
+	cursor: pointer;
+}
